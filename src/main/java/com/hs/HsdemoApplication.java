@@ -11,7 +11,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @SpringBootApplication
 @MapperScan({"com.hs.Mapper"})
-@ComponentScan({"com.hs.controller","com.hs.bean","com.hs.bean"})
+@ComponentScan({"com.hs.controller","com.hs.bean","com.hs.service","com.hs.config"})
 public class HsdemoApplication {
 
     public static void main(String[] args) {

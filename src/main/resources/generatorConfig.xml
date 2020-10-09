@@ -6,7 +6,7 @@
 <generatorConfiguration>
 
     <classPathEntry
-            location="D:\repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar"/>
+            location="/Users/haoshuang/repository/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar"/>
     <context id="my" targetRuntime="MyBatis3">
       <property name="beginningDelimiter" value="&quot;"/>
       <property name="endingDelimiter" value="&quot;"/>
@@ -47,7 +47,7 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
-        <table schema="public" tableName="people" >
+        <table schema="public" tableName="sys_user_role" >
         </table>
 
     </context>
